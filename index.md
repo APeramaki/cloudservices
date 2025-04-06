@@ -2,9 +2,9 @@
 
 ## Table of contents
 
-- [x] [Week 2 - Github pages](#week-2---e) 
+- [x] [Free choice extra assignment E - Github pages](#week-2---e) 
 
-## Week 2 - E
+## Free choice extra assignment bundle E
 
 > 
 > Use Github Pages and use markdown language syntax (not HTML) to create a static website. Maybe you can host some WASM application there such as x86 emulation, Qt for WASM, or just Awesome WebAssembly Applications. However, just a static website is also fine:
@@ -50,3 +50,11 @@ I started by creating new public github repository. After cloning it, I added fi
 ![tree](imgs/w2-tree.png)
 
 ![preview](imgs/w2-preview.png)
+
+After I did these I pushed changes to Github and went to repository settings and enabled _Pages_.
+
+![settings](imgs/w2-settings.png)
+
+This automatically created an _action_ that will be ran each time main branch is pushed to. After action was ran, page was made available at [default url](https://aperamaki.github.io/cloudservices/).
+
+![action pending](imgs/w2-action.png)
